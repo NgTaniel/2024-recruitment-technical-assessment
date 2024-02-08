@@ -1,0 +1,16 @@
+#star-container{
+    background: rgba(0, 0, 0, 0.5);
+    width: max-content;
+    /* width:fit-content;
+    height: fit-content; */
+    padding: 5px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    outline-style: solid;
+    outline-color: rgba(0, 0, 0, 0.5);
+    /* outline-width: 2px;
+    outline-offset: 2px; */
+}

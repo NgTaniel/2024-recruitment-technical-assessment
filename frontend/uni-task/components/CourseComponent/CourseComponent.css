@@ -1,0 +1,17 @@
+#courses-list-container {
+    height:100%;
+    padding:1em;
+    margin-top: 1em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 30px;
+    column-gap: 2vw;
+
+    background: rgba(0, 0, 0, 0.5);
+    /* outline-style: solid; */
+    outline-color: rgba(0, 0, 0, 0.5);
+    /* outline-width: 2px;
+    outline-offset: 2px; */
+}
