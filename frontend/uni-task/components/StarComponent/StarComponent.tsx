@@ -6,7 +6,7 @@ interface StarContainerProps {
 }
 
 const StarComponent = ({numStars}: StarContainerProps) => {
-  const displayStars = Array(numStars).fill(<IoStarSharp color="#ed8dff" style={{marginRight: "1px", fontSize: "2vw"}}/>)
+  const displayStars = Array(numStars).fill(<IoStarSharp color="#d87be0" style={{marginRight: "1px", fontSize: "2vw"}}/>)
   
   return (
     <div id="star-container">

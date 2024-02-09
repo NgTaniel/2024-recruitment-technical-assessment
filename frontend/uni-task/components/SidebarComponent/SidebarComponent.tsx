@@ -12,7 +12,7 @@ const SidebarComponent = () => {
   
   return (
     <>
-    <Sidebar collapsed={collapsed}>
+    <Sidebar collapsed={collapsed} style={{position: "fixed"}}>
       <Menu>
         <img src={unilectives} alt="unilectives-logo" style={{width: "40%", marginLeft: "auto", marginRight: "auto", display: "block", marginTop: "20%", marginBottom: "20%"}}/>
 
