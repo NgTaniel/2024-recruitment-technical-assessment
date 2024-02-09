@@ -1,4 +1,12 @@
 #front-page-container {
     margin-left: 10em;
     padding-bottom: 25em;
+    position: absolute;
+    top: 1em;
+}
+
+#sidebar-container {
+    height: 100%;
+    position: absolute;
+    top: 0em;
 }
