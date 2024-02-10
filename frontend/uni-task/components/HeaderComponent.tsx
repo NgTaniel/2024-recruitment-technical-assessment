@@ -1,10 +1,29 @@
-// import React from "react"
+import { useState } from "react"
+
 export default function HeaderComponent() {
+  const [color, setColor] = useState("#0185fe");
+
+  const handleColorChange = () => {
+    const nextColor = color === "#0185fe" ? "red" : "#0185fe";
+    setColor(nextColor);
+  }
+
   return (
     <>
       <div id="header-text" style={{lineHeight: "0%", fontFamily: "Helvetica"}}>
         <h4 style={{fontWeight: "500", color: "black"}}>DevSoc presents</h4>
-        <h1 style={{fontWeight: "900", color: "#0185fe"}}>unilelectives</h1>
+        <button style={{
+          fontWeight: "900", 
+          color: color, 
+          border: "none", 
+          outline: "none", 
+          background: "none", 
+          fontSize: "5.2vw", 
+          padding: "0"
+          }} 
+          onClick={handleColorChange}>
+            unilelectives
+        </button>
         <h3 style={{fontWeight: "800", color: "black"}}>Your one-stop shop for UNSW course and elective reviews</h3>
       </div>
 
