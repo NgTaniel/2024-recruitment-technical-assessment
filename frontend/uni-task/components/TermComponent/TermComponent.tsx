@@ -20,16 +20,8 @@ const TermComponent = ({list}: TermProps) => {
         <StarComponent numStars={list.average_stars}/>
         <h5 id="course-review" style={{marginTop: "1vw", color: "#b2b2b2"}}>{list.total_reviews} reviews</h5>
       </div>
-      <h5 id="course-name" style={{fontWeight: "500", color: "black", marginBottom: "2vw"}}>{list.course_title}</h5>
-      <div id="term-list-container" 
-        style={{
-          background: "#c9e5ff", 
-          color: "black",
-          fontSize: "75%",
-          width: "max-content",
-          borderRadius: "10px",
-          marginTop: "4vw"
-        }}>
+      <h5 id="course-name" style={{fontWeight: "500", color: "black", marginTop: "-1em"}}>{list.course_title}</h5>
+      <div id="term-list-container">
         {termList}
       </div>
     </div>
