@@ -3,18 +3,47 @@
  * Task 1
  */
 function leafFiles(files) {
-    return [];
+    // Finding leaf files by comparing two files based on its id and its parent id
+    const leafList = [];
+
+    // Base case for empty list
+    if (files.length === 0) {
+        return [];
+    }
+
+    // Using nested loops to denote the comparison for all files in 'testFiles'
+    for (let firstFile = 0; firstFile < files.length; firstFile++) {
+        let isLeaf = true; 
+
+        // If the comparison finds that a file's id exists as another file's parent id, then the latter is a parent and the flag is set to false, whilst ensuring the files are not comparing themselves
+        for (let secondFile = 0; secondFile < files.length; secondFile++) {
+            if (firstFile !== secondFile && files[firstFile].id === files[secondFile].parent) {
+                // Proceeds to the next object item
+                isLeaf = false;
+                break;
+            }
+        }
+
+        // Only file objects whose flag is 'true' gets stored in the array
+        if (isLeaf) {
+            leafList.push(files[firstFile].name)
+        }
+    }
+    
+    // For debugging purposes
+    // console.log(leafList);
+    return leafList;
 }
 
 /**
- * Task 1
+ * Task 2
  */
 function kLargestCategories(files, k) {
     return [];
 }
 
 /**
- * Task 1
+ * Task 3
  */
 function largestFileSize(files) {
     return 0;
