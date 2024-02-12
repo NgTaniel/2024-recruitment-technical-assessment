@@ -9,3 +9,5 @@ The submission is created using vite and react, the instructions are as follows:
 3. Input in the terminal 'npm run dev', then hover over the link (should look something like http://localhost:5173/) and 'ctrl + click'
 
 4. The frontend page should appear in a new tab
+
+Note: currently slightly modified the sampleData.tsx containing the items from course.json, where average stars have been rounded up to ensure proper display on the frontend
