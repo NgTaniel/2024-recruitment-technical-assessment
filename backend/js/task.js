@@ -12,12 +12,13 @@ function leafFiles(files) {
     }
 
     // Using nested loops to denote the comparison for all files in 'testFiles'
-    for (let firstFile = 0; firstFile < files.length; firstFile++) {
-        let isLeaf = true; 
+    for (const firstFile of files) {
+        let isLeaf = true;
 
         // If the comparison finds that a file's id exists as another file's parent id, then the latter is a parent and the flag is set to false, whilst ensuring the files are not comparing themselves
-        for (let secondFile = 0; secondFile < files.length; secondFile++) {
-            if (firstFile !== secondFile && files[firstFile].id === files[secondFile].parent) {
+        for (const secondFile of files) {
+            if (firstFile !== secondFile && firstFile.id === secondFile.parent) {
+
                 // Proceeds to the next object item
                 isLeaf = false;
                 break;
@@ -26,10 +27,10 @@ function leafFiles(files) {
 
         // Only file objects whose flag is 'true' gets stored in the array
         if (isLeaf) {
-            leafList.push(files[firstFile].name)
+            leafList.push(firstFile.name);
         }
     }
-    
+
     // For debugging purposes
     // console.log(leafList);
     return leafList;
