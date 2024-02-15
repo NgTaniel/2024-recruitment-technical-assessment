@@ -14,7 +14,7 @@ Notes:
 
 - Slightly modified the sampleData.tsx containing the items from course.json, where average stars have been rounded up to ensure proper display on the frontend
 
-- Created 'sampleData.tsx' to utilise the sampleData provided by courses.json
+- Created 'sampleData.tsx' to utilise the sampleData provided by courses.json, types.tsx is used for the type safety of keys
 
 - Some icons or symbols used are different from what the image displays
 
