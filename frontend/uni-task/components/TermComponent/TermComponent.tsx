@@ -7,20 +7,25 @@ interface TermProps {
 }
 
 const TermComponent = ({list}: TermProps) => {
-  const termList = list.offered_terms.map(t => <p id="course-terms" style={{display: "inline", padding: "1em"}}>{t}</p>);
+  const termList = list.offered_terms.map(t => <p id="course-terms" style={{display: "inline", padding: "1em", fontSize: "1.2em"}}>{t}</p>);
   
   return (
     <div id="term-course-components">
-      <h3 id="course-code" style={{fontWeight: "900", color: "black", fontSize: "1.5vw"}}>{list.course_prefix}{list.course_code}</h3>
-      <div id="star-section" style={{
-        marginLeft: "10vw", 
-        marginTop: "-3.7vw",
-        paddingLeft: "3vw"
-        }}>
+      <h3 id="course-code">
+        {list.course_prefix}{list.course_code}
+      </h3>
+
+      <div id="star-section">
         <StarComponent numStars={list.average_stars}/>
-        <h5 id="course-review" style={{marginTop: "1vw", color: "#b2b2b2"}}>{list.total_reviews} reviews</h5>
+        <h5 id="course-review">
+          {list.total_reviews} reviews
+        </h5>
       </div>
-      <h5 id="course-name" style={{fontWeight: "500", color: "black", marginTop: "-1em"}}>{list.course_title}</h5>
+
+      <h5 id="course-name">
+        {list.course_title}
+      </h5>
+      
       <div id="term-list-container">
         {termList}
       </div>

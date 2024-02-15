@@ -1,0 +1,36 @@
+#header-text {
+    line-height: 0%;
+    font-family: Helvetica;
+}
+
+#header-text h4 {
+    font-weight: 600;
+    color: black;
+}
+
+#header-text button {
+    font-weight: 900;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    font-size: 5.2vw;
+}
+
+#header-comps input {
+    margin-top: 2vw;
+    width: 98%;
+    font-family: Helvetica;
+    border: 1.5px solid #0185fe;
+    color: #0185fe;
+    padding: 1vw;
+}
+
+#header-comps button {
+    margin-top: 2vw;
+    width: 15%;
+    border: 1.5px solid #b2b2b2;
+    color: #b2b2b2;
+    text-align: start;
+    background-color: white;
+}
