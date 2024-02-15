@@ -10,4 +10,14 @@ The submission is created using vite and react, the instructions are as follows:
 
 4. The frontend page should appear in a new tab
 
-Note: currently slightly modified the sampleData.tsx containing the items from course.json, where average stars have been rounded up to ensure proper display on the frontend
+Notes: 
+
+- Slightly modified the sampleData.tsx containing the items from course.json, where average stars have been rounded up to ensure proper display on the frontend
+
+- Created 'sampleData.tsx' to utilise the sampleData provided by courses.json
+
+- Some icons or symbols used are different from what the image displays
+
+- Whilst a responsive design is not accounted for, my recreation of the task is focused and developed using a laptop screen display rather than a PC Monitor display
+- If viewed on a laptop: you may most likely need to scroll to see all the courses displayed
+- If viewed on a PC monitor screen: the positioning of the icons of the sidebar as well as components such as the 'Sort by' button and searchbar may not be placed nor centered neatly
