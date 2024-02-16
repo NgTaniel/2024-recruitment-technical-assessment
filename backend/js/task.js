@@ -61,7 +61,7 @@ function kLargestCategories(files, k) {
     }
 
     // Converting the object into array of objects, containing a key-value pair of each element the object array containing the category and its counter
-    const categoryPairs = Object.entries(categoryObj).map(([category, counter]) => ({ category, counter }));
+    const categoryPairs = Object.entries(categoryObj).map(([category, counter]) => ({category, counter}));
 
     // Sorting the categories in descending order based on counter and alphebetically
     categoryPairs.sort((a, b) => {
