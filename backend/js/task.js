@@ -40,7 +40,44 @@ function leafFiles(files) {
  * Task 2
  */
 function kLargestCategories(files, k) {
-    return [];
+    // Initialising an object key-value pair, to obtain initial data of the categories key
+    const categoryObj = {};
+
+    // Iterates through the files and accesses the category array (key) of each file
+    for (const obj of files) {
+        const catList = obj.categories;
+
+        // Iterates through the category arrays
+        for (const cat of catList) {
+            const category = cat;
+
+            // Checks the categories that exist across the files and increments the counter within its key-value
+            if (!categoryObj[category]) {
+                categoryObj[category] = 1;
+            } else {
+                categoryObj[category]++;
+            }
+        }
+    }
+
+    // Converting the object into array of objects, containing a key-value pair of each element the object array containing the category and its counter
+    const categoryPairs = Object.entries(categoryObj).map(([category, counter]) => ({ category, counter }));
+
+    // Sorting the categories in descending order based on counter and alphebetically
+    categoryPairs.sort((a, b) => {
+        if (a.counter !== b.counter) {
+            return b.counter - a.counter;
+        }
+
+        return a.category.localeCompare(b.category);
+    });
+
+    // Obtains a copied array depending on k elements, which would return an array of the top k most frequent appearing categories from 'testFiles'
+    const largestCategories = categoryPairs.slice(0, k).map(c => c.category);
+
+    // For debugging purposes
+    // console.log(largestCategories)
+    return largestCategories;
 }
 
 /**
@@ -91,6 +128,12 @@ console.assert(arraysEqual(
         "Video.mp4"
     ]
 ));
+
+// Extra testing
+console.assert(arraysEqual(
+    kLargestCategories(testFiles, 4),
+    ["Documents", "Folder", "Media", "Excel"]
+))
 
 console.assert(arraysEqual(
     kLargestCategories(testFiles, 3),
