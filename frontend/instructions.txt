@@ -4,7 +4,7 @@ The submission is created using vite and react, the instructions are as follows:
 
 1. Fork the repository
 
-2. Clone the repository by inputting 'git clone <repo's http link>' and change directory using 'cd frontend\uni-task'
+2. Clone the repository by inputting 'git clone <repo's http link>' and change directory using 'cd 2024-recruitment-technical-assessment\frontend\uni-task'
 
 3. Input in the terminal 'npm run dev', then hover over the link (should look something like http://localhost:5173/) and 'ctrl + click'
 
