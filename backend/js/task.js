@@ -33,6 +33,7 @@ function leafFiles(files) {
 
     // For debugging purposes
     // console.log(leafList);
+
     return leafList;
 }
 
@@ -42,6 +43,10 @@ function leafFiles(files) {
 function kLargestCategories(files, k) {
     // Initialising an object key-value pair, to obtain initial data of the categories key
     const categoryObj = {};
+
+    if (files.length === 0) {
+        return [];
+    }
 
     // Iterates through the files and accesses the category array (key) of each file
     for (const obj of files) {
@@ -77,6 +82,7 @@ function kLargestCategories(files, k) {
 
     // For debugging purposes
     // console.log(largestCategories)
+
     return largestCategories;
 }
 
