@@ -12,7 +12,7 @@ The submission is created using vite and react, the instructions are as follows:
 
 Notes: 
 
-- Slightly modified the sampleData.tsx containing the items from course.json, where average stars have been rounded up to ensure proper display on the frontend
+- Slightly modified the sampleData.tsx containing the items from courses.json, where average stars have been rounded up to ensure proper display on the frontend
 
 - Created 'sampleData.tsx' to utilise the sampleData provided by courses.json, types.tsx is used for the type safety of keys
 
