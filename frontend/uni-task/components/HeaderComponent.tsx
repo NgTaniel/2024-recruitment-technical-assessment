@@ -17,7 +17,7 @@ export default function HeaderComponent() {
         <button style={{color: color}} onClick={handleColorChange}>
             unilelectives
         </button>
-        <h3 style={{fontWeight: "800", color: "black"}}>Your one-stop shop for UNSW course and elective reviews</h3>
+        <h3>Your one-stop shop for UNSW course and elective reviews</h3>
       </div>
 
       {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

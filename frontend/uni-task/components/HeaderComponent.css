@@ -1,6 +1,11 @@
 #header-text {
     line-height: 0%;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
+}
+
+#header-text h3 {
+    font-weight: 800;
+    color: black;
 }
 
 #header-text h4 {
