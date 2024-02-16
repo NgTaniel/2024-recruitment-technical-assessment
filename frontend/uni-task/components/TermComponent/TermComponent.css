@@ -4,6 +4,12 @@
     font-family: "Helvetica";
 }
 
+#course-terms {
+    display: inline;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
 #course-code {
     font-weight: 900;
     color: black;

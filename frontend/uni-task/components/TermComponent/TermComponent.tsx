@@ -7,7 +7,7 @@ interface TermProps {
 }
 
 const TermComponent = ({list}: TermProps) => {
-  const termList = list.offered_terms.map(t => <p id="course-terms" style={{display: "inline", padding: "1em", fontSize: "1.2em"}}>{t}</p>);
+  const termList = list.offered_terms.map(t => <p id="course-terms">{t}</p>);
   
   return (
     <div id="term-course-components">

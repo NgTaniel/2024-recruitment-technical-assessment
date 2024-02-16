@@ -1,7 +1,16 @@
+#top-sidebar img {
+    width: 40%;
+    display: block;
+    margin: 20% auto;
+}
+
+#top-sidebar hr {
+    width: 60%;
+    color: #b2b2b2;
+}
+
 #top-unilective-icons {
-    margin-top: 20%;
     width: 30%;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20% auto 0 auto;
 }

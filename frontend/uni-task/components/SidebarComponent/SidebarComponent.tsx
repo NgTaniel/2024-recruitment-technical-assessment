@@ -14,9 +14,10 @@ const SidebarComponent = () => {
     <>
     <Sidebar collapsed={collapsed} style={{position: "fixed", height: "100%"}}>
       <Menu>
-        <img src={unilectives} alt="unilectives-logo" style={{width: "40%", marginLeft: "auto", marginRight: "auto", display: "block", marginTop: "20%", marginBottom: "20%"}}/>
-
-        <hr style={{width: "60%", color: "#b2b2b2"}}/>
+        <div id="top-sidebar">
+          <img src={unilectives} alt="unilectives-logo"/>
+          <hr/>
+        </div>
 
         <div id="top-unilective-icons">
           <div id='open-book' style={{marginBottom: "30px"}}>
