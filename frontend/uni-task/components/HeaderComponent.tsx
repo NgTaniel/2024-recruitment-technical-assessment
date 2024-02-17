@@ -25,7 +25,7 @@ export default function HeaderComponent() {
       </svg> */}
 
       <div id="header-comps">
-        <input type="text" placeholder="🔍        Search for a course e.g. COMP1511"/>
+        <input type="text" placeholder="🔍︎       Search for a course e.g. COMP1511"/>
 
         <button>
             Sort by <span style={{marginRight: "3em"}}></span> <span style={{color: "black"}}>▼</span>
