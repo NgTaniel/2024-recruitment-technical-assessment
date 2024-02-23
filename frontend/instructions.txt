@@ -18,6 +18,6 @@ Notes:
 
 - Some icons or symbols used are different from what the image displays
 
-- Whilst a responsive design is not accounted for, my recreation of the task is focused and developed using a laptop screen display rather than a PC Monitor display
+- Whilst a responsive design is not accounted for, my recreation of the task is focused and developed using a laptop screen display rather than a PC Monitor display, based on the sidebar and general layout
 - If viewed on a laptop: you may most likely need to scroll to see all the courses displayed
 - If viewed on a PC monitor screen: the positioning of the icons of the sidebar as well as components such as the 'Sort by' button and searchbar may not be placed nor centered neatly
