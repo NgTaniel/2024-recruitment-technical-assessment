@@ -1,6 +1,6 @@
 #star-container{
     background: none;
     width: max-content;
-    margin-bottom: -1vw;
+    position: relative;
     align-items: center
 }

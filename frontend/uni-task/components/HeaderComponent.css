@@ -3,13 +3,15 @@
     font-family: Helvetica, sans-serif;
 }
 
-#header-text h3 {
-    font-weight: 800;
+#header-text h4 {
+    font-weight: 600;
     color: black;
 }
 
-#header-text h4 {
-    font-weight: 600;
+#header-text h3 {
+    position: relative;
+    top: -0.8em;
+    font-weight: 800;
     color: black;
 }
 
@@ -19,12 +21,13 @@
     outline: none;
     background: none;
     padding: 0;
-    margin-top: -1vw;
+    position: relative;
+    top: -1vw;
     font-size: 4em;
 }
 
 #header-comps input {
-    margin-top: 2em;
+    margin-top: 1.5em;
     width: 98%;
     font-family: Helvetica;
     border: 1.5px solid #0185fe;
@@ -33,7 +36,7 @@
 }
 
 #header-comps button {
-    margin-top: 2vw;
+    margin-top: 1vw;
     width: 15%;
     border: 1.5px solid #b2b2b2;
     color: #b2b2b2;
