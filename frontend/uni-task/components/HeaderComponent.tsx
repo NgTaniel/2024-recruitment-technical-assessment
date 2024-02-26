@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./HeaderComponent.css"
-import downarrow from "../../assets/down-arrow.png"
+import downArrow from "../../assets/down-arrow.png"
 
 export default function HeaderComponent() {
   // Stretch Task 1
@@ -29,7 +29,7 @@ export default function HeaderComponent() {
         <input type="text" placeholder="🔍︎       Search for a course e.g. COMP1511" />
 
         <button>
-          Sort by <span style={{ paddingRight: "3em" }}></span> <img src={downarrow} alt="arrow" />
+          Sort by <span style={{ paddingRight: "3em" }}></span> <img src={downArrow} alt="arrow" />
         </button>
       </div>
     </>
