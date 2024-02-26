@@ -15,8 +15,8 @@ export default function HeaderComponent() {
     <>
       <div id="header-text">
         <h4>DevSoc presents</h4>
-        <button style={{color: color}} onClick={handleColorChange}>
-            unilelectives
+        <button style={{ color: color }} onClick={handleColorChange}>
+          unilelectives
         </button>
         <h3>Your one-stop shop for UNSW course and elective reviews</h3>
       </div>
@@ -26,10 +26,10 @@ export default function HeaderComponent() {
       </svg> */}
 
       <div id="header-comps">
-        <input type="text" placeholder="🔍︎       Search for a course e.g. COMP1511"/>
+        <input type="text" placeholder="🔍︎       Search for a course e.g. COMP1511" />
 
         <button>
-            Sort by <span style={{marginRight: "3em"}}></span> <span style={{color: "black"}}><img src={downarrow} alt="arrow"/></span>
+          Sort by <span style={{ marginRight: "3em" }}></span> <img src={downarrow} alt="arrow" />
         </button>
       </div>
     </>
