@@ -36,10 +36,18 @@
 }
 
 #header-comps button {
-    margin-top: 1vw;
-    width: 15%;
+    margin-top: 1em;
+    width: 16%;
     border: 1.5px solid #b2b2b2;
     color: #b2b2b2;
     text-align: start;
     background-color: white;
+    box-shadow: 0px 1px 1px 0.1px;
+}
+
+#header-comps button img {
+    width: 1em;
+    position: relative;
+    top: 0.25em;
+    float: right;
 }
