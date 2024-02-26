@@ -4,10 +4,10 @@ import downArrow from "../../assets/down-arrow.png"
 
 export default function HeaderComponent() {
   // Stretch Task 1
-  const [color, setColor] = useState("#0185fe");
+  const [color, setColor] = useState("#1479f2");
 
   const handleColorChange = () => {
-    const nextColor = color === "#0185fe" ? "red" : "#0185fe";
+    const nextColor = color === "#1479f2" ? "red" : "#1479f2";
     setColor(nextColor);
   }
 
