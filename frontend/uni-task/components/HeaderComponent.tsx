@@ -29,7 +29,7 @@ export default function HeaderComponent() {
         <input type="text" placeholder="🔍︎       Search for a course e.g. COMP1511" />
 
         <button>
-          Sort by <span style={{ marginRight: "3em" }}></span> <img src={downarrow} alt="arrow" />
+          Sort by <span style={{ paddingRight: "3em" }}></span> <img src={downarrow} alt="arrow" />
         </button>
       </div>
     </>
