@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./HeaderComponent.css"
 import downArrow from "../../assets/down-arrow.png"
 
-export default function HeaderComponent() {
+const HeaderComponent = () => {
   // Stretch Task 1
   const [color, setColor] = useState("#1479f2");
 
@@ -35,3 +35,5 @@ export default function HeaderComponent() {
     </>
   )
 }
+
+export default HeaderComponent;
