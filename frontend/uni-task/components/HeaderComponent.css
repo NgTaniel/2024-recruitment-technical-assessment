@@ -15,6 +15,30 @@
     color: black;
 }
 
+#searchbar {
+    padding-top: 1.5em;
+}
+#searchbar button {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 0em;
+    background-color: white;
+    color: #a0b0ea;
+    border: 2px solid #a0b0ea;
+}
+#searchbar svg {
+    width: 3%;
+    padding-right: 3.5%;
+    position: relative;
+    left: 0.75em;
+    top: 0.5em;
+}
+#searchbar p {
+    position: relative;
+    top: 0.1em;
+}
+
 #header-text button {
     font-weight: 900;
     border: none;
@@ -50,4 +74,17 @@
     position: relative;
     top: 0.25em;
     float: right;
+}
+
+#popup p {
+    margin: 0 auto;
+    text-align: center;
+}
+#popup button {
+    width: fit-content;
+    color: red;
+    padding: 1em 2em;
+    justify-content: center;
+    border: 1.5px solid red;
+    margin: 2em auto;
 }
